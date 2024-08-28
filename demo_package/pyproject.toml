@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "demo-package"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Freidlin <freidlinks@cloudx.group>"]
+readme = "README.md"
+packages = [
+  { include = "demo_package" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "my-pypi"
+url = "http://localhost:8080"
+priority = "primary"
