@@ -16,4 +16,3 @@ COPY ./README.md ./
 COPY ./demo_package ./demo_package
 
 CMD [ "poetry", "build" ]
-
