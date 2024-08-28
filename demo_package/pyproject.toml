@@ -2,7 +2,7 @@
 name = "demo-package"
 version = "0.1.0"
 description = ""
-authors = ["Konstantin Freidlin <freidlinks@cloudx.group>"]
+authors = ["Konstantin Freidlin <freidlinks@ya.ru>"]
 readme = "README.md"
 packages = [
   { include = "demo_package" }
