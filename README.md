@@ -7,7 +7,7 @@ make run
 ```
 
 ## Custom usage
-First of all: Create dir `.packages` in project root path
+First of all: Create dir `.packages` in project root path. Place packages into it
 Then:
 ```bash
 make run_clean
